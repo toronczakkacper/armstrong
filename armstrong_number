@@ -10,5 +10,11 @@ def armstrong(liczba):
         print(liczba, "armstrong number")
     else:
         print(liczba, "not armstrong number")
-
+armstrong(153)
+armstrong(9)
+armstrong(10)
+armstrong(1234)
+armstrong(1634)
+armstrong(1239)
+armstrong(1245)
 
