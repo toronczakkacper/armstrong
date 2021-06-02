@@ -6,10 +6,10 @@ def armstrong(liczba):
         digit = temp % 10  #digit -> np liczba 153 digit to 1, 5, 3
         suma += digit ** zamiana
         temp //= 10   # "odcinamy" koncowke liczby np 193 -> 19
-    if liczba == suma:
-        print(liczba, "armstrong number")
+       if liczba == suma:
+        print(bool(True))
     else:
-        print(liczba, "not armstrong number")
+        print(bool(False))
 armstrong(153)
 armstrong(9)
 armstrong(10)
